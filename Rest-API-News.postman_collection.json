@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "db0122ec-f682-4275-8f95-901dc85f666b",
+		"name": "Rest-API-News",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://newsapi.org/v2/everything?q=keyword&apiKey=b0da3d376eab4f12b6128940b5b2ea54",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=keyword&apiKey=b0da3d376eab4f12b6128940b5b2ea54",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "keyword"
+						},
+						{
+							"key": "apiKey",
+							"value": "b0da3d376eab4f12b6128940b5b2ea54"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://newsapi.org/v2/top-headlines/sources?apiKey=b0da3d376eab4f12b6128940b5b2ea54",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines/sources?apiKey=b0da3d376eab4f12b6128940b5b2ea54",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines",
+						"sources"
+					],
+					"query": [
+						{
+							"key": "apiKey",
+							"value": "b0da3d376eab4f12b6128940b5b2ea54"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://newsapi.org/v2/everything?q=Apple&from=2021-08-26&sortBy=popularity&apiKey=b0da3d376eab4f12b6128940b5b2ea54",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=Apple&from=2021-08-26&sortBy=popularity&apiKey=b0da3d376eab4f12b6128940b5b2ea54",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Apple"
+						},
+						{
+							"key": "from",
+							"value": "2021-08-26"
+						},
+						{
+							"key": "sortBy",
+							"value": "popularity"
+						},
+						{
+							"key": "apiKey",
+							"value": "b0da3d376eab4f12b6128940b5b2ea54"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=b0da3d376eab4f12b6128940b5b2ea54",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=b0da3d376eab4f12b6128940b5b2ea54",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "domains",
+							"value": "techcrunch.com,thenextweb.com"
+						},
+						{
+							"key": "apiKey",
+							"value": "b0da3d376eab4f12b6128940b5b2ea54"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://newsapi.org/v2/top-headlines/sources?q=keyword&apiKey=b0da3d376eab4f12b6128940b5b2ea54",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines/sources?q=keyword&apiKey=b0da3d376eab4f12b6128940b5b2ea54",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines",
+						"sources"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "keyword"
+						},
+						{
+							"key": "apiKey",
+							"value": "b0da3d376eab4f12b6128940b5b2ea54"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
